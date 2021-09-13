@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+header{
+    transition: 1s ease;
+}
+.top_bar{
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    line-height: 35px;
+    color: white;
+    background-color: green;
+    font-size: 0.8em;
+}
+.top_bar .left_top i{
+    padding: 5px 5px;
+    font-weight: bolder;
+    line-height: 30px;
+    font-size: 1.01rem;
+}
+.top_bar a{
+    text-decoration: none;
+    color: white;
+}
+.inline{
+    display: inline-flex;
+}
+.top_bar div{
+    margin: 0px 45px;
+}
+
+.btn
+{
+    padding: 5px 20px;
+}
+.btn-orange{
+    background-color: orange;
+}
+.btn-orange:hover{
+    background-color: rgb(117, 91, 43);
+}
+
+
+/* editing second top bar  */
+.fixed
+{
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    padding-bottom: 7px;
+}
+.logo{
+    margin-top: auto;
+}
+.navbar-fixed-top
+{
+    width: 100%;
+    align-items: center;
+}
+.top_bar_second
+{
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-top: 15px;
+    display: grid;
+    place-items: center;
+    height: 47px;
+    line-height: 47px;
+    grid-template-columns: auto auto auto;
+    transition: 0.6s ease;
+    margin-bottom: 15px;
+}
+.top_bar_second .menu
+{
+    cursor: pointer;
+}
+.top_bar_second .menu first_ul
+{
+    padding: 3px 12px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.top_bar_second .menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 12px;
+}
+.btns{
+}
+.btns i{
+    padding: 14px 14px;
+    margin-right: 5px;
+    color: #000;
+    transition: 0.4s ease;
+    height: 16px;
+    line-height: 16px;
+    box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.185);
+}
+.btns i:hover{
+    color: white;
+    background-color: orange;
+}
+
+.temp:hover > .under_another
+{
+    display: block;
+}
+
+
+.under_another
+{
+    display: none;
+}
+ul li ul{
+    top: 15%;
+    background-color: rgb(182, 163, 163);
+    display: block;
+    position: absolute;
+    max-width: 150px;
+    align-items: center;
+    text-align: center;
+}
+ul li ul li:hover{
+    color: orange;
+}
